@@ -2,7 +2,7 @@
 A cheat-sheet with questions that can be asked during .NET interviews, and a compilation of short answers to these questions.
 
 ## Introduction 
-During the process of getting my first job as a full .NET developer, I've come across several questions that are likely to be asked during an interview for that kind of position. 
+During the process of getting a job as a .NET developer, I've come across several questions that are likely to be asked during an interview for that kind of position. 
 This repository contains a list with some of these questions, as well as a suggestion of possible answers to them, either done entirely by me or taken from the internet and adapted.
 This is meant to be a "goto" place for people that find themselves in the same situation, and as a place where these answers can easily be found for future reference.
 
@@ -34,7 +34,7 @@ An abstract class can contain some implementation, although it cannot be instant
 A class defines a family of objects that share the same characteristics. In short, a class works as a template for an object, and an object is an instance of a class.
 
 **6. What is the difference between overriding and overloading a method?**  
-To override a method means to give it a different behaviour than the one it has in one of the classes he derives from. To overload a method is to provide different signatures (number of parameters) to methods that have the same name and are expected to do the same thing.
+To override a method means to give it a different behaviour than the one it has in one of the classes he derives from. To overload a method is to provide different signatures (number and type of parameters) to methods that have the same name and are expected to do the same thing.
 
 **7. What's the difference between a static method and a non-static method?**  
 A static method belongs to the class and a non-static method belongs to an object. That means that static methods can be accessed without instantiating an object of that class, while non-static methods require instantiation.
