@@ -1,4 +1,4 @@
-# .NET-Developer-Questions
+# .NET-Questions
 A cheat-sheet with questions that can be asked during .NET interviews, and a compilation of short answers to these questions.
 
 ## Introduction 
