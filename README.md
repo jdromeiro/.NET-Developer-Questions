@@ -72,7 +72,7 @@ JSON is an open-standard file format that uses human-readable text to save and t
 ## Good Practices
 
 **1. What are SOLID Principles?**  
-SOLID principles are principles that should be used in OOP development to make software designs more understandable, flexible and maintainable. 
+SOLID principles are a set of 5 programming practices that should be used in OOP development to make software designs more understandable, flexible and maintainable.
 
 **2. What are Design Patterns?**  
 Design patterns are generic and well tested solutions for common problems. By a combination of those it is possible to use solutions that are less likely to fail and that designers are familiar with.
