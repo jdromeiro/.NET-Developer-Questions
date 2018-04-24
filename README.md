@@ -39,6 +39,8 @@ To override a method means to give it a different behaviour than the one it has 
 **7. What's the difference between a static method and a non-static method?**  
 A static method belongs to the class and a non-static method belongs to an object. That means that static methods can be accessed without instantiating an object of that class, while non-static methods require instantiation.
 
+[Back to Table of Contents](#table-of-contents)
+
 ## Types
 
 **1. What is a Delegate?**  
@@ -68,6 +70,8 @@ Reflection is a way of programmatically discover types at runtime. This is done 
 **9. What do the terms Boxing and Unboxing mean?**  
 Boxing is the process of converting a value type to an Object type. Unboxing is the process of extracting a value type from an Object. These concepts are important for fulfilling the unified paradigm in .NET, in which a value of any type can be treated as an object.
 
+[Back to Table of Contents](#table-of-contents)
+
 ## Keywords and modifiers
 
 **1. What are the differences between protected, internal, and protected internal?**  
@@ -78,6 +82,8 @@ Both ref and out indicate that a parameter is being passed by reference (as oppo
 
 **3. What are the difference between read-only variables and constants?**  
 Read-only variables support reference- and value- types and are evaluated at runtime. Constants only support value-types and are evaluated at compile time.
+
+[Back to Table of Contents](#table-of-contents)
 
 ## Web Development
 
@@ -102,6 +108,8 @@ The View State contains the content of various input fields in the form, while t
 **7. What is JSON data?**  
 JSON is an open-standard file format that uses human-readable text to save and transmit data objects. It is the natural replacement for xml, as it is flexible, compact and it can be easily loaded in Java Script. 
 
+[Back to Table of Contents](#table-of-contents)
+
 ## Good Practices
 
 **1. What are SOLID Principles?**  
@@ -113,6 +121,8 @@ Design patterns are generic and well tested solutions for common problems. By a 
 **3. What are Architectural Patterns?**  
 Architectural patterns are high-level design patterns (concerning large-scale components) that help in developing applications that are loosely combined, easy to test and maintain.
 
+[Back to Table of Contents](#table-of-contents)
+
 ## Concurrency
 
 **1. What is the difference between a thread and a process?**  
@@ -121,6 +131,7 @@ Both processes and threads are independent sequences of execution. The main diff
 **2. What does the keyword volatile mean in C#?**  
 The volatile keyword indicates that a field might be modified by multiple threads. This declaration prevents compiler optimizations that assume access by a single thread.
 
+[Back to Table of Contents](#table-of-contents)
 
 ## Others
 
@@ -133,4 +144,5 @@ LINQ stands for Language Integrated Query. It provides a set of features that ex
 **3. What are the most common acronyms used in .NET?**  
 The most-used acronyms in .NET are IL (Intermediate Language), CIL (Common Intermediate Language), CLI (Common Language Infrastructure) and JIT (Just-in-time) compiler.
 
+[Back to Table of Contents](#table-of-contents)
 
