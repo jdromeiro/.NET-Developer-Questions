@@ -6,7 +6,17 @@ During the process of getting my first job as a full .NET developer, I've come a
 This repository contains a list with some of these questions, as well as a suggestion of possible answers to them, either done entirely by me or taken from the internet and adapted.
 This is meant to be a "goto" place for people that find themselves in the same situation, and as a place where these answers can easily be found for future reference.
 
-## OOP in .NET
+## Table of Contents
+
+- [OOP](#oop)
+- [Types](#types)
+- [Keywords and modifiers](#keywords-and-modifiers)
+- [Web Development](#web-development)
+- [Good Practices](#good-practices)
+- [Concurrency](#concurrency)
+- [Others](#others)
+  
+## OOP
 
 **1. What is OOP?**  
 OOP is a programming paradigm that allows to build modular, complex and extendable applications. It makes use of classes, objects, methods, properties, fields and other entities, and is based on 4 main concepts: encapsulation, abstraction, polymorphism and inheritance.
@@ -29,7 +39,7 @@ To override a method means to give it a different behaviour than the one it has 
 **7. What's the difference between a static method and a non-static method?**  
 A static method belongs to the class and a non-static method belongs to an object. That means that static methods can be accessed without instantiating an object of that class, while non-static methods require instantiation.
 
-## Types in .NET
+## Types
 
 **1. What is a Delegate?**  
 A delegate is a type that references methods. Delegates can hold references to multiple methods. Therefore, when invoking a certain delegate, we might actually call several methods at the same time.
