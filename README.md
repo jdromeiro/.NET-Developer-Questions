@@ -94,6 +94,7 @@ Read-only variables support reference- and value- types and are evaluated at run
 **4. What do the terms Boxing and Unboxing mean?**  
 Boxing is the process of converting a value type to an Object type. Unboxing is the process of extracting a value type from an Object. These concepts are important for fulfilling the unified paradigm in .NET, in which a value of any type can be treated as an object.
 
-
+**5. What are the most common acronyms used in .NET?**  
+The most-used acronyms in .NET are IL (Intermediate Language), CIL (Common Intermediate Language), CLI (Common Language Infrastructure) and JIT (Just-in-time) compiler.
 
 
