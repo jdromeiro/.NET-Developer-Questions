@@ -1,24 +1,24 @@
 # .NETDeveloperQuestions
-A cheat-sheet with questions that can be asked during .NET interviews, and a compilation of short definitions necessary for software development in .NET.
+A cheat-sheet with questions that can be asked during .NET interviews, and a compilation of short answers to these questions.
 
 ## Introduction 
 During the process of getting my first job as a full .NET developer, I've come across several questions that are likely to be asked during an interview for a position as a .NET developer.  
-This repository contains a list with some of these questions, as well as suggestion of possible answers to them.
+This repository contains a list with some of these questions, as well as a suggestion of possible answers to them.
 This is meant to be a "goto" place for people that find themselves in the same situation, and as a place where these answers can easily be found for future reference.
 
 ## OOP in .NET
 
 **1. What is OOP?**  
-OOP is a programming paradigm that allows to build modular, complex and extendable applications: It makes use of classes, objects, methods, properties, fields and other entities. Has 4 basic features: encapsulation, abstraction, polymorphism and inheritance.
+OOP is a programming paradigm that allows to build modular, complex and extendable applications. It makes use of classes, objects, methods, properties, fields and other entities, and is based on 4 main concepts: encapsulation, abstraction, polymorphism and inheritance.
 
 **2. What is encapsulation?**  
-Encapsulation is the way to separate the interface from the implementation of a class and protecting the internal components of an application from external access. By encapsulating the behavior of an object, one can change it while not breaking code that is using it.
+Encapsulation is the way to separate the interface of an application from its implementation and of protecting the internal components of an application from external access. By encapsulating the behavior of an object, one can change it while not breaking code that is using it.
 
 **3. What is inheritance?**  
 Inheritance is the way of reusing code and avoiding code duplication, by building a hierarchy in which base classes contain characteristics (fields or methods) that are shared by all sub-classes. It also allows for polymorphism, by defining common actions in base-classes that have different implementations in their sub-classes.
 
 **4. What is the difference between an Abstract class and an Interface?**  
-A class defines a family of objects that share the same characteristics. In short, a class works as a template for an object, and an object is an instance of a class.
+An abstract class can contain some implementation, although it cannot be instantiated. An interface cannot contain any implementation, just the declaration of methods, fields and events. Conceptually, an abstract class defines what an object is, while an interface defines what an object can do.
 
 **5. What is the difference between a Class and an Object?**  
 A class defines a family of objects that share the same characteristics. In short, a class works as a template for an object, and an object is an instance of a class.
@@ -41,7 +41,7 @@ Stacks are LIFO (Last-In-Last-Out) collections, whereas Queues are FIFO (First-I
 Value types are stored in the stack and hold values directly. Reference types contain pointers stored in the stack, which point to memory locations in the heap that hold the real data.
 
 **6. What are generics?**  
-Generics are types containing generic behaviour but that become strongly typed once instantiated, avoiding casting errors to occur at runtime.
+Generics are types containing generic behaviour that become strongly typed once instantiated, avoiding casting errors to occur at runtime.
 
 **7. What are interfaces?**  
 Interfaces are contracts that can include properties, methods and events. They provide abstraction to the code and help having code that is maintainable, extensible and testable.
@@ -64,7 +64,7 @@ Web Forms are the traditional way to create quick and simple web applications, b
 A RESTful API is an API based in representational state transfer (REST) technology that allows two programs to communicate to each other using HTTP as its underlying communication method, and that keeps track of the state of a web session.
 
 **6. What is the difference between a View State and a Session State in ASP.NET?**  
-The View State contains the content of various input fields in the form, while the Session State contains collective information obtained from various pages the user visited.
+The View State contains the content of various input fields in the form, while the Session State contains collective information obtained from various pages the user has visited.
 
 **7. What is JSON data?**  
 JSON is an open-standard file format that uses human-readable text to save and transmit data objects. It is the natural replacement for xml, as it is flexible, compact and it can be easily loaded in Java Script. 
