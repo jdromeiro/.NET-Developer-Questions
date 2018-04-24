@@ -23,6 +23,12 @@ An abstract class can contain some implementation, although it cannot be instant
 **5. What is the difference between a Class and an Object?**  
 A class defines a family of objects that share the same characteristics. In short, a class works as a template for an object, and an object is an instance of a class.
 
+**6. What is the difference between overriding and overloading a method?**  
+To override a method means to give it a different behaviour than the one it has in one of the classes he derives from. To overload a method is to provide different signatures (number of parameters) to methods that have the same name and are expected to do the same thing.
+
+**7. What's the difference between a static method and a non-static method?**  
+A static method belongs to the class and a non-static method belongs to an object. That means that static methods can be accessed without instantiating an object of that class, while non-static methods require instantiation.
+
 ## Types in .NET
 
 **1. What is a Delegate?**  
@@ -45,6 +51,23 @@ Generics are types containing generic behaviour that become strongly typed once 
 
 **7. What are interfaces?**  
 Interfaces are contracts that can include properties, methods and events. They provide abstraction to the code and help having code that is maintainable, extensible and testable.
+
+**8. What is Reflection?**  
+Reflection is a way of programmatically discover types at runtime. This is done by asking an object to look to itself and determine what its type is.
+
+**9. What do the terms Boxing and Unboxing mean?**  
+Boxing is the process of converting a value type to an Object type. Unboxing is the process of extracting a value type from an Object. These concepts are important for fulfilling the unified paradigm in .NET, in which a value of any type can be treated as an object.
+
+## Keywords and modifiers
+
+**1. What are the differences between protected, internal, and protected internal?**  
+A protected member can be accessed by its own class and its derived classes, whereas internal members can be accessed from anywhere within the same assembly. Protected internal does an ‘or’ on these two conditions.
+
+**2. What is the difference between the _ref_ and the _out_ keywords?**  
+Both ref and out indicate that a parameter is being passed by reference (as oppose to by value). The difference is that variables passed with _ref_ need to be initiated before passing, whereas variables declared with _out_ don’t.
+
+**3. What are the difference between read-only variables and constants?**  
+Read-only variables support reference- and value- types and are evaluated at runtime. Constants only support value-types and are evaluated at compile time.
 
 ## Web Development
 
@@ -80,6 +103,15 @@ Design patterns are generic and well tested solutions for common problems. By a 
 **3. What are Architectural Patterns?**  
 Architectural patterns are high-level design patterns (concerning large-scale components) that help in developing applications that are loosely combined, easy to test and maintain.
 
+## Concurrency
+
+**1. What is the difference between a thread and a process?**  
+Both processes and threads are independent sequences of execution. The main difference is that threads (belonging to the same process) run in a shared memory space, while processes run in separate memory spaces.
+
+**2. What does the keyword volatile mean in C#?**  
+The volatile keyword indicates that a field might be modified by multiple threads. This declaration prevents compiler optimizations that assume access by a single thread.
+
+
 ## Others
 
 **1. Explain the difference between managed and unmanaged code.**  
@@ -88,13 +120,7 @@ Architectural patterns are high-level design patterns (concerning large-scale co
 **2. Define LINQ.**  
 LINQ stands for Language Integrated Query. It provides a set of features that extend the .NET language and allow for data manipulation using a succinct yet expressive syntax. In sum, LINQ makes the link between the world of objects and the world of data.
 
-**3. What are the difference between read-only variables and constants?**  
-Read-only variables support reference- and value- types and are evaluated at runtime. Constants only support value-types and are evaluated at compile time.
-
-**4. What do the terms Boxing and Unboxing mean?**  
-Boxing is the process of converting a value type to an Object type. Unboxing is the process of extracting a value type from an Object. These concepts are important for fulfilling the unified paradigm in .NET, in which a value of any type can be treated as an object.
-
-**5. What are the most common acronyms used in .NET?**  
+**3. What are the most common acronyms used in .NET?**  
 The most-used acronyms in .NET are IL (Intermediate Language), CIL (Common Intermediate Language), CLI (Common Language Infrastructure) and JIT (Just-in-time) compiler.
 
 
