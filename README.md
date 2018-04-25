@@ -11,9 +11,8 @@ This is meant to be a "goto" place for people that find themselves in the same s
 - [OOP](#oop)
 - [Types](#types)
 - [Keywords and modifiers](#keywords-and-modifiers)
-- [Web Development](#web-development)
 - [Good Practices](#good-practices)
-- [Concurrency](#concurrency)
+- [Web Development](#web-development)
 - [Others](#others)
   
 ## OOP
@@ -83,30 +82,11 @@ Both ref and out indicate that a parameter is being passed by reference (as oppo
 **3. What are the difference between read-only variables and constants?**  
 Read-only variables support reference- and value- types and are evaluated at runtime. Constants only support value-types and are evaluated at compile time.
 
-[Back to Table of Contents](#table-of-contents)
+**4. What does the keyword volatile mean in C#?**  
+The volatile keyword indicates that a field might be modified by multiple threads. This declaration prevents compiler optimizations that assume access by a single thread.
 
-## Web Development
-
-**1. What is a .NET web service?**  
-A web service is a service offered by an electronic device to another electronic device, in which they communicate with each other via the World Wide Web, across different platforms and programming languages, using protocols such as HTTP and SOAP.
-
-**2. What is ASP.NET?**  
-ASP.Net is a web application framework to allow programmers to dynamically build web sites, by using a full featured programming language such as C# and VB.Net. It works on top of the HTTP protocol, using the HTTP verbs like GET, PUT, POST and DELETE.
-
-**3. What is ASP.NET Core?**  
-ASP.NET Core is the successor of ASP.NET. It’s a modular and multi-platform framework, that is also faster than its predecessor.  
-
-**4. When should you use .NET Web Forms over ASP.NET MVC?**  
-Web Forms are the traditional way to create quick and simple web applications, but it’s a bit obsolete now. The MVC pattern allows for the application to be broken down into discrete models, view and controllers, making them much easier to test during development.
-
-**5. What is a RESTful API?**  
-A RESTful API is an API based in representational state transfer (REST) technology that allows two programs to communicate to each other using HTTP as its underlying communication method, and that keeps track of the state of a web session.
-
-**6. What is the difference between a View State and a Session State in ASP.NET?**  
-The View State contains the content of various input fields in the form, while the Session State contains collective information obtained from various pages the user has visited.
-
-**7. What is JSON data?**  
-JSON is an open-standard file format that uses human-readable text to save and transmit data objects. It is the natural replacement for xml, as it is flexible, compact and it can be easily loaded in Java Script. 
+**5. What does the keyword virtual do?**  
+The virtual keyword allows a method, property or an event declared in a base class to be overridden in a derived class. This enables the specific behaviour of a derived class to occur whenever a variable with the type of the base class is pointing to an object of the derived class.
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -123,13 +103,28 @@ Architectural patterns are high-level design patterns (concerning large-scale co
 
 [Back to Table of Contents](#table-of-contents)
 
-## Concurrency
+## Web Development
 
-**1. What is the difference between a thread and a process?**  
-Both processes and threads are independent sequences of execution. The main difference is that threads (belonging to the same process) run in a shared memory space, while processes run in separate memory spaces.
+**1. What is a .NET web service?**  
+A web service is a service offered by an electronic device to another electronic device, in which they communicate with each other via the World Wide Web, across different platforms and programming languages, using protocols such as HTTP and SOAP.
 
-**2. What does the keyword volatile mean in C#?**  
-The volatile keyword indicates that a field might be modified by multiple threads. This declaration prevents compiler optimizations that assume access by a single thread.
+**2. What is ASP.NET?**  
+ASP.Net is a web application framework to allow programmers to dynamically build web sites, by using a full featured programming language such as C# and VB.Net. It works on top of the HTTP protocol, using the HTTP verbs like GET, PUT, POST and DELETE.
+
+**3. What is ASP.NET Core?**  
+ASP.NET Core is the successor of ASP.NET. It’s a modular and multi-platform framework, that is also faster than its predecessor.  
+
+**4. When should you use ASP.NET Web Forms over ASP.NET MVC?**  
+Web Forms are the traditional way to create quick and simple web applications, but it’s a bit obsolete now. The MVC pattern allows for the application to be broken down into discrete models, view and controllers, making them much easier to test during development.
+
+**5. What is a RESTful API?**  
+A RESTful API is an API based in representational state transfer (REST) technology that allows two programs to communicate to each other using HTTP as its underlying communication method, and that keeps track of the state of a web session.
+
+**6. What is the difference between a View State and a Session State in ASP.NET?**  
+The View State contains the content of various input fields in the form, while the Session State contains collective information obtained from various pages the user has visited.
+
+**7. What is JSON data?**  
+JSON is an open-standard file format that uses human-readable text to save and transmit data objects. It is the natural replacement for xml, as it is flexible, compact and it can be easily loaded in Java Script. 
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -143,6 +138,10 @@ LINQ stands for Language Integrated Query. It provides a set of features that ex
 
 **3. What are the most common acronyms used in .NET?**  
 The most-used acronyms in .NET are IL (Intermediate Language), CIL (Common Intermediate Language), CLI (Common Language Infrastructure) and JIT (Just-in-time) compiler.
+
+**4. What is the difference between a thread and a process?**  
+Both processes and threads are independent sequences of execution. The main difference is that threads (belonging to the same process) run in a shared memory space, while processes run in separate memory spaces.
+
 
 [Back to Table of Contents](#table-of-contents)
 
