@@ -3,8 +3,8 @@ A cheat-sheet with questions that can be asked during .NET interviews, and a com
 
 ## Introduction 
 During the process of getting a job as a .NET developer, I've come across several questions that are likely to be asked during an interview for that kind of position. 
-This repository contains a list with some of these questions, as well as a suggestion of possible answers to them, either done entirely by me or taken from the internet and adapted.
-This is meant to be a "goto" place for people that find themselves in the same situation, and as a place where these answers can easily be found for future reference.
+This repository contains a list with some of these questions, as well as a suggestion of answers to them, either done entirely by me or taken from the internet and adapted.
+This is meant to be a go-to place where these answers can be easily found, and may help people landing their first jobs as .NET developers.
 
 ## Table of Contents
 
