@@ -12,6 +12,7 @@ This is meant to be a "goto" place for people that find themselves in the same s
 - [Types](#types)
 - [Keywords and modifiers](#keywords-and-modifiers)
 - [Good Practices](#good-practices)
+- [Tests](#tests)
 - [Web Development](#web-development)
 - [Others](#others)
   
@@ -101,6 +102,16 @@ Design patterns are generic and well tested solutions for common problems. By a 
 **3. What are Architectural Patterns?**  
 Architectural patterns are high-level design patterns (concerning large-scale components) that help in developing applications that are loosely combined, easy to test and maintain.
 
+**4. What is Dependency Injection?**  
+Dependency injection is a way of removing dependencies in the code, by programming to interfaces instead of to concrete types. It is very useful for configuration changes after compile-time, and it is a great thing for unit testing, allowing to easily separate and test the components of an application independently.
+
+[Back to Table of Contents](#table-of-contents)
+
+## Tests
+
+**1. What are the fundamentals of Unit Testing?**  
+The fundamentals of Unit Testing are Arrange, Act and Assert (AAA). First we create the necessary things to run the test, then we execute the test, and then we verify the result of the test against the expected results.
+
 [Back to Table of Contents](#table-of-contents)
 
 ## Web Development
@@ -109,21 +120,24 @@ Architectural patterns are high-level design patterns (concerning large-scale co
 A web service is a service offered by an electronic device to another electronic device, in which they communicate with each other via the World Wide Web, across different platforms and programming languages, using protocols such as HTTP and SOAP.
 
 **2. What is ASP.NET?**  
-ASP.Net is a web application framework to allow programmers to dynamically build web sites, by using a full featured programming language such as C# and VB.Net. It works on top of the HTTP protocol, using the HTTP verbs like GET, PUT, POST and DELETE.
+ASP.Net is a web application framework to allow programmers to dynamically build web sites, by using a full featured programming language such as C# and VB.Net. It works on top of the HTTP protocol, using the HTTP verbs to perform requests.
 
-**3. What is ASP.NET Core?**  
+**3. What are the main HTTP verbs and what do they do?**  
+HTTP verbs are methods used to perform operations on resources identified by URIs. POST creates new resources, GET retrieves a representation of a resource, PUT updates a resource, PATCH modifies the capabilities of a resource, and DELETE is used to delete a resource.
+
+**4. What is ASP.NET Core?**  
 ASP.NET Core is the successor of ASP.NET. It’s a modular and multi-platform framework, that is also faster than its predecessor.  
 
-**4. When should you use ASP.NET Web Forms over ASP.NET MVC?**  
+**5. When should you use ASP.NET Web Forms over ASP.NET MVC?**  
 Web Forms are the traditional way to create quick and simple web applications, but it’s a bit obsolete now. The MVC pattern allows for the application to be broken down into discrete models, view and controllers, making them much easier to test during development.
 
-**5. What is a RESTful API?**  
+**6. What is a RESTful API?**  
 A RESTful API is an API based in representational state transfer (REST) technology that allows two programs to communicate to each other using HTTP as its underlying communication method, and that keeps track of the state of a web session.
 
-**6. What is the difference between a View State and a Session State in ASP.NET?**  
+**7. What is the difference between a View State and a Session State in ASP.NET?**  
 The View State contains the content of various input fields in the form, while the Session State contains collective information obtained from various pages the user has visited.
 
-**7. What is JSON data?**  
+**8. What is JSON data?**  
 JSON is an open-standard file format that uses human-readable text to save and transmit data objects. It is the natural replacement for xml, as it is flexible, compact and it can be easily loaded in Java Script. 
 
 [Back to Table of Contents](#table-of-contents)
