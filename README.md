@@ -3,7 +3,7 @@ A compilation of questions related to software development in .NET.
 
 ## Introduction 
 During the process of getting a job as a .NET developer, I've come across several questions that are likely to be asked during an interview.   
-This repository contains a compilation of some of these questions, as well as suggestions of answers to them, either done entirely by me or taken from the internet and adapted.  
+This repository contains a compilation of some of these questions, as well as suggestions of answers to them, either done entirely by me, taken directly from the internet, or adapted.
 This is meant to be a go-to place where these answers can be easily found, and may help people preparing interviews and landing their first jobs as .NET developers.  
 
 ## Table of Contents
@@ -42,6 +42,12 @@ To override a method means to give it a different behaviour than the one it has 
 **8. What's the difference between a static method and a non-static method?**  
 A static method belongs to the class and a non-static method belongs to an object. That means that static methods can be accessed without instantiating an object of that class, while non-static methods require instantiation.
 
+**9. What are Extension methods?**  
+Extension methods allow to add methods to existing types without without modifying the original type. An extension method is a special kind of static method, but they are called as if they were instance methods of the extended type.
+
+**10. What are lambda expressions?**  
+A lambda expression is an anonymous method that is created in the same place where it is used. It avoids the trouble of creating a full definition for a method when we only need to use it once.
+
 [Back to Table of Contents](#table-of-contents)
 
 ## Types
@@ -61,7 +67,7 @@ Stacks are LIFO (Last-In-Last-Out) collections, whereas Queues are FIFO (First-I
 **5. What is the difference between Value and Reference types?**  
 Value types are stored in the stack and hold values directly. Reference types contain pointers stored in the stack, which point to memory locations in the heap that hold the real data.
 
-**6. What are generics?**  
+**6. What are Generics?**  
 Generics are types containing generic behaviour that become strongly typed once instantiated, avoiding casting errors to occur at runtime.
 
 **7. What is Reflection?**  
@@ -134,10 +140,16 @@ Web Forms are the traditional way to create quick and simple web applications, b
 **6. What is a RESTful API?**  
 A RESTful API is an API based in representational state transfer (REST) technology that allows two programs to communicate to each other using HTTP as its underlying communication method, and that keeps track of the state of a web session.
 
-**7. What is the difference between a View State and a Session State in ASP.NET?**  
+**7. What are the main steps when designing a REST API?**  
+1.	Identify Object Model - identify the objects which will be presented as resources.
+2.	Create Model URIs - focus on the relationship between resources and its sub-resources.
+3.	Determine Representations – decide on the representations of the resources are produced (using XML or JSON formats).
+4.	Assign HTTP Methods – define possible operations and map them on resource URIs.
+
+**8. What is the difference between a View State and a Session State in ASP.NET?**  
 The View State contains the content of various input fields in the form, while the Session State contains collective information obtained from various pages the user has visited.
 
-**8. What is JSON data?**  
+**9. What is JSON data?**  
 JSON is an open-standard file format that uses human-readable text to save and transmit data objects. It is the natural replacement for xml, as it is flexible, compact and it can be easily loaded in Java Script. 
 
 [Back to Table of Contents](#table-of-contents)
