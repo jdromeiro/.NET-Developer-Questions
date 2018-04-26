@@ -12,7 +12,7 @@ This is meant to be a go-to place where these answers can be easily found, and m
 - [Types](#types)
 - [Keywords and modifiers](#keywords-and-modifiers)
 - [Good Practices](#good-practices)
-- [Tests](#tests)
+- [Testing](#testing)
 - [Web Development](#web-development)
 - [Others](#others)
   
