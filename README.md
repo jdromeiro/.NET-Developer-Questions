@@ -141,10 +141,10 @@ Web Forms are the traditional way to create quick and simple web applications, b
 A RESTful API is an API based in representational state transfer (REST) technology that allows two programs to communicate to each other using HTTP as its underlying communication method, and that keeps track of the state of a web session.
 
 **7. What are the main steps when designing a REST API?**  
-1.	Identify Object Model - identify the objects which will be presented as resources.
-2.	Create Model URIs - focus on the relationship between resources and its sub-resources.
-3.	Determine Representations – decide on the representations of the resources are produced (using XML or JSON formats).
-4.	Assign HTTP Methods – define possible operations and map them on resource URIs.
+1.	Identify Object Model - identify the objects that will be presented as resources.
+2.	Create Model URIs - establish the URIs and the relationship between resources and its sub-resources.
+3.	Determine Representations – decide on the representations of the resources that are produced (using XML or JSON formats).
+4.	Assign HTTP Methods – define possible operations and map them on the resource URIs.
 
 **8. What is the difference between a View State and a Session State in ASP.NET?**  
 The View State contains the content of various input fields in the form, while the Session State contains collective information obtained from various pages the user has visited.
