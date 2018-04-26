@@ -42,39 +42,39 @@ To override a method means to give it a different behaviour than the one it has 
 **8. What's the difference between a static method and a non-static method?**  
 A static method belongs to the class and a non-static method belongs to an object. That means that static methods can be accessed without instantiating an object of that class, while non-static methods require instantiation.
 
-**9. What are Extension methods?**  
-Extension methods allow to add methods to existing types without without modifying the original type. An extension method is a special kind of static method, but they are called as if they were instance methods of the extended type.
-
-**10. What are lambda expressions?**  
-A lambda expression is an anonymous method that is created in the same place where it is used. It avoids the trouble of creating a full definition for a method when we only need to use it once.
-
 [Back to Table of Contents](#table-of-contents)
 
 ## Types
 
-**1. What is a Delegate?**  
-A delegate is a type that references methods. Delegates can hold references to multiple methods. Therefore, when invoking a certain delegate, we might actually call several methods at the same time.
-
-**2. What is an Event?**  
-Events are special delegates to which one can only add or remove subscribers (methods that listen to the event). They don’t allow any of the other operations allowed to delegates.
-
-**3. What are Collections?**  
-Collections are types responsible for managing groups of objects in memory. Different collection types have different ways of storing and accessing the elements in them.
-
-**4. What is the difference between a Stack and a Queue?**  
-Stacks are LIFO (Last-In-Last-Out) collections, whereas Queues are FIFO (First-In-First-Out) collections.
-
-**5. What is the difference between Value and Reference types?**  
+**1. What is the difference between Value and Reference types?**  
 Value types are stored in the stack and hold values directly. Reference types contain pointers stored in the stack, which point to memory locations in the heap that hold the real data.
 
-**6. What are Generics?**  
+**2. What are Collections?**  
+Collections are types responsible for managing groups of objects in memory. Different collection types have different ways of storing and accessing the elements in them.
+
+**3. What is the difference between a Stack and a Queue?**  
+Stacks are LIFO (Last-In-Last-Out) collections, whereas Queues are FIFO (First-In-First-Out) collections.
+
+**4. What are Generics?**  
 Generics are types containing generic behaviour that become strongly typed once instantiated, avoiding casting errors to occur at runtime.
 
-**7. What is Reflection?**  
+**5. What is Reflection?**  
 Reflection is a way of programmatically discover types at runtime. This is done by asking an object to look to itself and determine what its type is.
 
-**8. What do the terms Boxing and Unboxing mean?**  
+**6. What do the terms Boxing and Unboxing mean?**  
 Boxing is the process of converting a value type to an Object type. Unboxing is the process of extracting a value type from an Object. These concepts are important for fulfilling the unified paradigm in .NET, in which a value of any type can be treated as an object.
+
+**7. What is a Delegate?**  
+A delegate is a type that references methods. Delegates can hold references to multiple methods. Therefore, when invoking a certain delegate, we might actually call several methods at the same time.
+
+**8. What is an Event?**  
+Events are special delegates to which one can only add or remove subscribers (methods that listen to the event). They don’t allow any of the other operations allowed to delegates.
+
+**9. What are Extension methods?**  
+Extension methods allow to add methods to existing types without without modifying the original type. An extension method is a special kind of static method, but they are called as if they were instance methods of the extended type.
+
+**10. What are Lambda expressions?**  
+A lambda expression is an anonymous method that is created in the same place where it is used. It avoids the trouble of creating a full definition for a method when we only need to use it once.
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -113,7 +113,7 @@ Dependency injection is a way of removing dependencies in the code, by programmi
 
 [Back to Table of Contents](#table-of-contents)
 
-## Tests
+## Testing
 
 **1. What are the fundamentals of Unit Testing?**  
 The fundamentals of Unit Testing are Arrange, Act and Assert (AAA). First we create the necessary things to run the test, then we execute the test, and then we verify the result of the test against the expected results.
@@ -168,6 +168,11 @@ The most-used acronyms in .NET are IL (Intermediate Language), CIL (Common Inter
 **4. What is the difference between a thread and a process?**  
 Both processes and threads are independent sequences of execution. The main difference is that threads (belonging to the same process) run in a shared memory space, while processes run in separate memory spaces.
 
+**5. What is the difference between assembly and namespace?**  
+Namespaces are used for logical separation, whereas assemblies are used for physical separation. An assembly can contain types in multiple namespaces, and a namespace can be spread across different assemblies.
+
+**6. What is Serialization?**  
+Serialization is the process of converting an object into some serial data format like XML or JSON, so that it can be stored and used later. The reverse process is called deserialization.
 
 [Back to Table of Contents](#table-of-contents)
 
