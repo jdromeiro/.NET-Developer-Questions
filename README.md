@@ -1,5 +1,5 @@
 # .NET-Questions
-A cheat-sheet with questions that can be asked during .NET interviews, and a compilation of short answers to these questions.
+A compilation of questions related to software development in .NET.
 
 ## Introduction 
 During the process of getting a job as a .NET developer, I've come across several questions that are likely to be asked during an interview.   
