@@ -138,7 +138,7 @@ ASP.NET Core is the successor of ASP.NET. It’s a modular and multi-platform fr
 Web Forms are the traditional way to create quick and simple web applications, but it’s a bit obsolete now. The MVC pattern allows for the application to be broken down into discrete models, view and controllers, making them much easier to test during development.
 
 **6. What is a RESTful API?**  
-A RESTful API is an API based in representational state transfer (REST) technology that allows two programs to communicate to each other using HTTP as its underlying communication method, and that keeps track of the state of a web session.
+A RESTful API is an API based in representational state transfer (REST) technology that allows two programs to communicate to each other using HTTP as its underlying communication method. Session state is kept entirely on the client.
 
 **7. What are the main steps when designing a REST API?**
 1) Identify Object Model - identify the objects that will be presented as resources.
