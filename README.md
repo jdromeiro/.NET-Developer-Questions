@@ -10,6 +10,7 @@ This is meant to be a go-to place where these answers can be easily found, and m
 
 - [OOP](#oop)
 - [Types](#types)
+- [Methods](#methods)
 - [Keywords and modifiers](#keywords-and-modifiers)
 - [Good Practices](#good-practices)
 - [Testing](#testing)
@@ -35,12 +36,6 @@ Interfaces are contracts that can include properties, methods and events. They p
 
 **6. What is the difference between an Abstract class and an Interface?**  
 An abstract class can contain some implementation, although it cannot be instantiated. An interface cannot contain any implementation, just the declaration of methods, fields and events. Conceptually, an abstract class defines what an object is, while an interface defines what an object can do.
-
-**7. What is the difference between overriding and overloading a method?**  
-To override a method means to give it a different behaviour than the one it has in one of the classes he derives from. To overload a method is to provide different signatures (number and type of parameters) to methods that have the same name and are expected to do the same thing.
-
-**8. What's the difference between a static method and a non-static method?**  
-A static method belongs to the class and a non-static method belongs to an object. That means that static methods can be accessed without instantiating an object of that class, while non-static methods require instantiation.
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -70,29 +65,38 @@ A delegate is a type that references methods. Delegates can hold references to m
 **8. What is an Event?**  
 Events are special delegates to which one can only add or remove subscribers (methods that listen to the event). They don’t allow any of the other operations allowed to delegates.
 
-**9. What are Extension methods?**  
+[Back to Table of Contents](#table-of-contents)
+
+## Methods
+**1. What is the difference between overriding and overloading a method?**  
+To override a method means to give it a different behaviour than the one it has in one of the classes he derives from. To overload a method is to provide different signatures (number and type of parameters) to methods that have the same name and are expected to do the same thing.
+
+**2. What's the difference between a static method and a non-static method?**  
+A static method belongs to the class and a non-static method belongs to an object. That means that static methods can be accessed without instantiating an object of that class, while non-static methods require instantiation.
+
+**3. What are Extension methods?**  
 Extension methods allow to add methods to existing types without without modifying the original type. An extension method is a special kind of static method, but they are called as if they were instance methods of the extended type.
 
-**10. What are Lambda expressions?**  
+**4. What are Lambda expressions?**  
 A lambda expression is an anonymous method that is created in the same place where it is used. It avoids the trouble of creating a full definition for a method when we only need to use it once.
 
 [Back to Table of Contents](#table-of-contents)
 
-## Keywords and modifiers
+## Keywords and Modifiers
 
-**1. What are the differences between protected, internal, and protected internal?**  
+**1. What are the differences between _protected_, _internal_, and _protected internal_?**  
 A protected member can be accessed by its own class and its derived classes, whereas internal members can be accessed from anywhere within the same assembly. Protected internal does an ‘or’ on these two conditions.
 
 **2. What is the difference between the _ref_ and the _out_ keywords?**  
 Both ref and out indicate that a parameter is being passed by reference (as oppose to by value). The difference is that variables passed with _ref_ need to be initiated before passing, whereas variables declared with _out_ don’t.
 
-**3. What is the difference between read-only variables and constants?**  
+**3. What is the difference between a _read-only_ variable and a _constant_?**  
 Read-only variables support reference- and value- types and are evaluated at runtime. Constants only support value-types and are evaluated at compile time.
 
-**4. What does the keyword volatile mean in C#?**  
+**4. What does the keyword _volatile_ mean in C#?**  
 The volatile keyword indicates that a field might be modified by multiple threads. This declaration prevents compiler optimizations that assume access by a single thread.
 
-**5. What does the keyword virtual do?**  
+**5. What does the keyword _virtual_ do?**  
 The virtual keyword allows a method, property or an event declared in a base class to be overridden in a derived class. This enables the specific behaviour of a derived class to occur whenever a variable with the type of the base class is pointing to an object of the derived class.
 
 [Back to Table of Contents](#table-of-contents)
@@ -115,8 +119,11 @@ Dependency injection is a way of removing dependencies in the code, by programmi
 
 ## Testing
 
-**1. What are the fundamentals of Unit Testing?**  
-The fundamentals of Unit Testing are Arrange, Act and Assert (AAA). First we create the necessary things to run the test, then we execute the test, and then we verify the result of the test against the expected results.
+**1. What are the fundamentals of unit testing?**  
+The fundamentals of unit testing are Arrange, Act and Assert (AAA). First we create the necessary things to run the test, then we execute the test, and at last we verify the result obtained against the expected results.
+
+**2. What is the difference between unit tests and integration tests?**  
+Unit tests are simple tests that verify the correctness of single parts of the code (usually methods), while integration tests are tests made for showing that the different parts of a code work well together.
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -174,5 +181,8 @@ Namespaces are used for logical separation, whereas assemblies are used for phys
 **6. What is Serialization?**  
 Serialization is the process of converting an object into some serial data format like XML or JSON, so that it can be stored and used later. The reverse process is called deserialization.
 
-[Back to Table of Contents](#table-of-contents)
+**7. What are the differences between relational and non-relational databases?**  
+SQL databases (tabled based) are rigid, structured and well organized, and allow for more complex and fast queries. 
+NoSQL databases (document based, graph based, key-value stores or wide-column stores), are flexible and are better for storing large and ever-changing data sets that don’t need complex queries.
 
+[Back to Table of Contents](#table-of-contents)
