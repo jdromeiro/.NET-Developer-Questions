@@ -3,7 +3,7 @@ A compilation of questions related to software development in .NET.
 
 ## Introduction 
 During the process of getting a job as a .NET developer, I've come across several questions that are likely to be asked during an interview.   
-This repository contains a compilation of some of these questions, as well as suggestions of answers to them, either done entirely by me, taken directly from the internet, or adapted.
+This repository contains a compilation of some of these questions, as well as suggestions of answers to them, either done entirely by me, taken directly from the internet, or adapted.  
 This is meant to be a go-to place where these answers can be easily found, and may help people preparing interviews and landing their first jobs as .NET developers.  
 
 ## Table of Contents
@@ -11,7 +11,7 @@ This is meant to be a go-to place where these answers can be easily found, and m
 - [OOP](#oop)
 - [Types](#types)
 - [Methods](#methods)
-- [Keywords and modifiers](#keywords-and-modifiers)
+- [Keywords and Modifiers](#keywords-and-modifiers)
 - [Good Practices](#good-practices)
 - [Testing](#testing)
 - [Web Development](#web-development)
@@ -129,7 +129,7 @@ Unit tests are simple tests that verify the correctness of single parts of the c
 
 ## Web Development
 
-**1. What is a .NET web service?**  
+**1. What is a web service?**  
 A web service is a service offered by an electronic device to another electronic device, in which they communicate with each other via the World Wide Web, across different platforms and programming languages, using protocols such as HTTP and SOAP.
 
 **2. What is ASP.NET?**  
@@ -182,7 +182,6 @@ Namespaces are used for logical separation, whereas assemblies are used for phys
 Serialization is the process of converting an object into some serial data format like XML or JSON, so that it can be stored and used later. The reverse process is called deserialization.
 
 **7. What are the differences between relational and non-relational databases?**  
-SQL databases (tabled based) are rigid, structured and well organized, and allow for more complex and fast queries. 
-NoSQL databases (document based, graph based, key-value stores or wide-column stores), are flexible and are better for storing large and ever-changing data sets that don’t need complex queries.
+SQL databases (relational and tabled based) are rigid, structured and well organized, and allow for more complex and fast queries. NoSQL databases (document based, graph based, key-value stores or wide-column stores), are flexible and are better for storing large and ever-changing data sets that don’t require complex queries.
 
 [Back to Table of Contents](#table-of-contents)
