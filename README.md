@@ -14,7 +14,7 @@ This is meant to be a go-to place where these answers can be easily found, and m
 - [Keywords and Modifiers](#keywords-and-modifiers)
 - [Good Practices](#good-practices)
 - [Testing](#testing)
-- [Data](#data)
+- [Data Storage and Manipulation](#data-storage-and-manipulation)
 - [Web Development](#web-development)
 - [Others](#others)
   
@@ -105,7 +105,7 @@ The virtual keyword allows a method, property or an event declared in a base cla
 ## Good Practices
 
 **1. What are SOLID Principles?**  
-SOLID principles are a set of 5 programming practices that should be used in OOP development to make software designs more understandable, flexible and maintainable.
+SOLID principles are a set of 5 programming practices - **S**ingle Responsability, **O**pen Closed, **L**iskov Substitution, **I**nterface Segregation and **D**ependency Injection - that should be used in OOP development to make software designs more understandable, flexible and maintainable.
 
 **2. What are Design Patterns?**  
 Design patterns are generic and well tested solutions for common problems. By a combination of those it is possible to use solutions that are less likely to fail and that designers are familiar with.
@@ -126,9 +126,13 @@ The fundamentals of unit testing are Arrange, Act and Assert (AAA). First we cre
 **2. What is the difference between unit tests and integration tests?**  
 Unit tests are simple tests that verify the correctness of single parts of the code (usually methods), while integration tests are tests made for showing that the different parts of a code work well together.
 
+**3. What is TDD?**  
+TDD (Test Driven Design) is a development process that consists in first designing tests that fulfil the application requirements, and then in writing the code that satisfies those tests.
+
 [Back to Table of Contents](#table-of-contents)
 
-## Data
+## Data Storage and Manipulation
+
 **1. What is Serialization?**  
 Serialization is the process of converting an object into some serial data format like XML or JSON, so that it can be stored and used later. The reverse process is called deserialization.
 
@@ -148,28 +152,31 @@ SQL databases (relational and tabled based) are rigid, structured and well organ
 **1. What is a web service?**  
 A web service is a service offered by an electronic device to another electronic device, in which they communicate with each other via the World Wide Web, across different platforms and programming languages, using protocols such as HTTP and SOAP.
 
-**2. What is ASP.NET?**  
-ASP.Net is a web application framework to allow programmers to dynamically build web sites, by using a full featured programming language such as C# and VB.Net. It works on top of the HTTP protocol, using the HTTP verbs to perform requests.
+**2. What is an API?**  
+An API (Application Programming Interface) is a set of routines, protocols and tools that are provided by an application to allow other applications to communicate with it.
 
-**3. What are the main HTTP verbs and what do they do?**  
-HTTP verbs are methods used to perform operations on resources identified by URIs. POST creates new resources, GET retrieves a representation of a resource, PUT updates a resource, PATCH modifies the capabilities of a resource, and DELETE is used to delete a resource.
+**3. What is a RESTful API?**  
+A RESTful API is an API based in representational state transfer (REST) that uses HTTP as its underlying communication method. This architectural style provides a lot of flexibility, since it separates completely client from server and decouples data, resources, representations and methods.
 
-**4. What is ASP.NET Core?**  
-ASP.NET Core is the successor of ASP.NET. It’s a modular and multi-platform framework, that is also faster than its predecessor.  
-
-**5. When should you use ASP.NET Web Forms over ASP.NET MVC?**  
-Web Forms are the traditional way to create quick and simple web applications, but it’s a bit obsolete now. The MVC pattern allows for the application to be broken down into discrete models, view and controllers, making them much easier to test during development.
-
-**6. What is a RESTful API?**  
-A RESTful API is an API based in representational state transfer (REST) technology that allows two programs to communicate to each other using HTTP as its underlying communication method. Session state is kept entirely on the client.
-
-**7. What are the main steps when designing a REST API?**
+**4. What are the main steps when designing a REST API?**
 1) Identify Object Model - identify the objects that will be presented as resources.
 2) Create Model URIs - establish the URIs and the relationship between resources and its sub-resources.
 3) Determine Representations – structure the representations of the resources that are produced (using XML or JSON).
 4) Assign HTTP Methods – define possible operations and map them on the resource URIs.
 
-**8. What is the difference between a View State and a Session State in ASP.NET?**  
+**5. What are the main HTTP verbs and what do they do?**  
+HTTP verbs are methods used to perform operations on resources identified by URIs. The most important are related to CRUD operations (Create, Read, Update and Delete): POST creates new resources, GET retrieves a representation of a resource, PUT updates a resource, PATCH modifies the capabilities of a resource, and DELETE is used to delete a resource.
+
+**6. What is ASP.NET?**  
+ASP.Net is a web application framework to allow programmers to dynamically build web sites, by using a full featured programming language such as C# and VB.Net. It works on top of the HTTP protocol, using the HTTP verbs to perform requests.
+
+**7. What is ASP.NET Core?**  
+ASP.NET Core is the successor of ASP.NET. It’s a modular and multi-platform framework, that is also faster than its predecessor.  
+
+**8. When should you use ASP.NET Web Forms over ASP.NET MVC?**  
+Web Forms are the traditional way to create quick and simple web applications, but it’s a bit obsolete now. The MVC pattern allows for the application to be broken down into discrete models, view and controllers, making them much easier to test during development.
+
+**9. What is the difference between a View State and a Session State in ASP.NET?**  
 The View State contains the content of various input fields in the form, while the Session State contains collective information obtained from various pages the user has visited.
 
 [Back to Table of Contents](#table-of-contents)
