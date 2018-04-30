@@ -14,6 +14,7 @@ This is meant to be a go-to place where these answers can be easily found, and m
 - [Keywords and Modifiers](#keywords-and-modifiers)
 - [Good Practices](#good-practices)
 - [Testing](#testing)
+- [Data](#data)
 - [Web Development](#web-development)
 - [Others](#others)
   
@@ -127,6 +128,21 @@ Unit tests are simple tests that verify the correctness of single parts of the c
 
 [Back to Table of Contents](#table-of-contents)
 
+## Data
+**1. What is Serialization?**  
+Serialization is the process of converting an object into some serial data format like XML or JSON, so that it can be stored and used later. The reverse process is called deserialization.
+
+**2. What is JSON data?**  
+JSON is an open-standard file format that uses human-readable text to save and transmit data objects. It is the natural replacement for xml, as it is flexible, compact and it can be easily loaded in Java Script. 
+
+**3. Define LINQ.**  
+LINQ stands for Language Integrated Query. It provides a set of features that extend the .NET language and allow for data manipulation using a succinct yet expressive syntax. In sum, LINQ makes the link between the world of objects and the world of data.
+
+**4. What are the differences between relational and non-relational databases?**  
+SQL databases (relational and tabled based) are rigid, structured and well organized, and allow for more complex and fast queries. NoSQL databases (document based, graph based, key-value stores or wide-column stores) are flexible and are better for storing large and ever-changing data sets that don’t require complex queries.
+
+[Back to Table of Contents](#table-of-contents)
+
 ## Web Development
 
 **1. What is a web service?**  
@@ -156,9 +172,6 @@ A RESTful API is an API based in representational state transfer (REST) technolo
 **8. What is the difference between a View State and a Session State in ASP.NET?**  
 The View State contains the content of various input fields in the form, while the Session State contains collective information obtained from various pages the user has visited.
 
-**9. What is JSON data?**  
-JSON is an open-standard file format that uses human-readable text to save and transmit data objects. It is the natural replacement for xml, as it is flexible, compact and it can be easily loaded in Java Script. 
-
 [Back to Table of Contents](#table-of-contents)
 
 ## Others
@@ -166,22 +179,13 @@ JSON is an open-standard file format that uses human-readable text to save and t
 **1. Explain the difference between managed and unmanaged code.**  
 .NET managed code is platform-independent code that runs on the CLR. The CLR provides garbage collection, type checking and exceptions handling that manage the code. Unmanaged code (C or C++) is code directly compiled to native machine code that forces the developer to do the management of the memory usage and memory allocation himself.
 
-**2. Define LINQ.**  
-LINQ stands for Language Integrated Query. It provides a set of features that extend the .NET language and allow for data manipulation using a succinct yet expressive syntax. In sum, LINQ makes the link between the world of objects and the world of data.
-
-**3. What are the most common acronyms used in .NET?**  
+**2. What are the most common acronyms used in .NET?**  
 The most-used acronyms in .NET are IL (Intermediate Language), CIL (Common Intermediate Language), CLI (Common Language Infrastructure) and JIT (Just-in-time) compiler.
 
-**4. What is the difference between a thread and a process?**  
+**3. What is the difference between a thread and a process?**  
 Both processes and threads are independent sequences of execution. The main difference is that threads (belonging to the same process) run in a shared memory space, while processes run in separate memory spaces.
 
-**5. What is the difference between assembly and namespace?**  
+**4. What is the difference between assembly and namespace?**  
 Namespaces are used for logical separation, whereas assemblies are used for physical separation. An assembly can contain types in multiple namespaces, and a namespace can be spread across different assemblies.
-
-**6. What is Serialization?**  
-Serialization is the process of converting an object into some serial data format like XML or JSON, so that it can be stored and used later. The reverse process is called deserialization.
-
-**7. What are the differences between relational and non-relational databases?**  
-SQL databases (relational and tabled based) are rigid, structured and well organized, and allow for more complex and fast queries. NoSQL databases (document based, graph based, key-value stores or wide-column stores), are flexible and are better for storing large and ever-changing data sets that don’t require complex queries.
 
 [Back to Table of Contents](#table-of-contents)
