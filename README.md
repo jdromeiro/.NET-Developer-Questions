@@ -156,7 +156,7 @@ A web service is a service offered by an electronic device to another electronic
 An API (Application Programming Interface) is a set of routines, protocols and tools that are provided by an application to allow other applications to communicate with it.
 
 **3. What is a RESTful API?**  
-A RESTful API is an API based in representational state transfer (REST) that uses HTTP as its underlying communication method. This architectural style provides a lot of flexibility, since it separates completely client from server and decouples data, resources, representations and methods.
+A RESTful API is an API based in representational state transfer (REST) that uses HTTP as its underlying communication method. This architectural style provides a lot of flexibility, since it separates completely client from server and it's stateless. REST APIs decouple completely data from resources, from representations and from methods.
 
 **4. What are the main steps when designing a REST API?**
 1) Identify Object Model - identify the objects that will be presented as resources.
