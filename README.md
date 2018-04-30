@@ -38,6 +38,9 @@ Interfaces are contracts that can include properties, methods and events. They p
 **6. What is the difference between an Abstract class and an Interface?**  
 An abstract class can contain some implementation, although it cannot be instantiated. An interface cannot contain any implementation, just the declaration of methods, fields and events. Conceptually, an abstract class defines what an object is, while an interface defines what an object can do.
 
+**7. What is the difference between a field and a property?**  
+Properties expose fields. Fields are normally kept private in a class and accessed via getters and setters (accessors). Properties provide a level of abstraction allowing fields to be changed while not affecting the external way they are accessed by other objects.
+
 [Back to Table of Contents](#table-of-contents)
 
 ## Types
