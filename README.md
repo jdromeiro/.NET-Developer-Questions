@@ -148,6 +148,12 @@ LINQ stands for Language Integrated Query. It provides a set of features that ex
 **4. What are the differences between relational and non-relational databases?**  
 SQL databases (relational and tabled based) are rigid, structured and well organized, and allow for more complex and fast queries. NoSQL databases (document based, graph based, key-value stores or wide-column stores) are flexible and are better for storing large and ever-changing data sets that don’t require complex queries.
 
+**5. What is the difference between a primary key and a foreign key?**  
+In a relational database table, a primary key is a set of one or more fields (columns) designated to identify all records (rows), for which their value (or combination of values) must be unique for each record in the table. A foreign key is a set of one or more columns in a table that refers to the primary key in another table, and that creates a link between these two tables.
+
+**6. What is the difference between a LEFT JOIN and an INNER JOIN?**  
+When mashing up two tables, an INNER JOIN keeps only the rows from both tables where they match up, whereas A LEFT OUTER JOIN keeps all rows from left table and adds any rows from right table that match up to the left table’s.
+
 [Back to Table of Contents](#table-of-contents)
 
 ## Web Development
